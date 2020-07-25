@@ -189,7 +189,7 @@ public class wordcount {
         }
 
         private  void write() throws IOException {
-            FileWriter fw = new FileWriter("src/result.txt",true);
+            FileWriter fw = new FileWriter("src/result1.txt",true);
             bw = new BufferedWriter(fw);
             synchronized (fw){
                 Set<Map.Entry<String,Integer>> set1 = map2.entrySet();
