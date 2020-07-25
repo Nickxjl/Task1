@@ -99,7 +99,7 @@ public class wordcount {
             System.out.println(Thread.currentThread().getName() + " 线程读取文件 ：" + file.getName() + " 完毕"  + " ,时间为 "+ sdf.format(new Date()));
             latch.countDown();
             return fileMap;
-            //return res;
+
         }
 
     }
